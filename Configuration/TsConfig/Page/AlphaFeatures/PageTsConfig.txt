@@ -1,0 +1,13 @@
+RTE.classesAnchor {
+	internalCEInMagnificpopup {
+		class = mfp-content-element internal-link-new-window
+		type = page
+		image >
+		titleText = LLL:EXT:jh_magnificpopup/Resources/Private/Language/locallang.xlf:pageTSconfig.internalCEInMagnificpopup
+	}
+}
+
+RTE.default.proc.allowedClasses := addToList(mfp-content-element internal-link-new-window)
+RTE.default.classesAnchor := addToList(mfp-content-element internal-link-new-window)
+
+RTE.default.buttons.link.properties.class.allowedClasses := addToList(mfp-content-element internal-link-new-window)
