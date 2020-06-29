@@ -10,7 +10,7 @@
  * writing. "version" and "dependencies" must not be touched!
  ***************************************************************/
 
-$EM_CONF[$_EXTKEY] = array (
+$EM_CONF['jh_magnificpopup'] = array (
   'title' => 'Magnific Popup',
   'description' => 'This extension provides the responsive jQuery lightbox plugin Magnific Popup for images in content elements. Opening content like videos, other websites or inline/referenced content is supported within a plugin.',
   'category' => 'plugin',
@@ -26,7 +26,7 @@ $EM_CONF[$_EXTKEY] = array (
   array (
     'depends' => 
     array (
-      'typo3' => '8.7.0-9.5.99',
+      'typo3' => '9.5.0-10.4.99',
     ),
     'conflicts' => 
     array (
